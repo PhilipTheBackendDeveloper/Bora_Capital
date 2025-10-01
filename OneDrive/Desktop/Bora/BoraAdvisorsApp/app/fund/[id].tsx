@@ -63,7 +63,7 @@ export default function FundDetailScreen() {
       </View>
 
       {/* Performance Card */}
-      <View style={styles.card}>
+      {/* <View style={styles.card}>
         <Text style={styles.sectionTitle}>Performance</Text>
         <View style={styles.performanceGrid}>
           {Object.entries(fund.performance).map(([period, value]) => (
@@ -73,7 +73,7 @@ export default function FundDetailScreen() {
             </View>
           ))}
         </View>
-      </View>
+      </View> */}
 
       {/* Fund Details Card */}
       <View style={styles.card}>
